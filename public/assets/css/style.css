@@ -1,0 +1,51 @@
+html, body {
+    font-family: Consolas, monaco, monospace;
+    background-color: #aeb1a2;
+    color: #F8F8F2;
+}
+
+.container {
+    margin: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #A6E22E;
+}
+
+a:hover {
+    color: #F92672;
+}
+
+h1 {
+    color: #953356;
+}
+
+h2 {
+    color: #288fa2;
+}
+
+table {
+    border: groove 2px #404040;
+    color: #404040;
+}
+tr {
+    border: dashed;
+    color: #404040;
+}
+td {
+    border: groove 2px #404040;   
+    color: #404040;
+}
+th {
+    border: groove 2px #404040;    
+    color: #404040;
+}
+
+#chatMessages{
+    height: 300px;
+    width: 80%;
+    overflow: scroll;
+    overflow-x: hidden;
+    border: 2px solid red;
+}
